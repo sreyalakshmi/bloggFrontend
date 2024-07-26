@@ -17,7 +17,7 @@ const Signup = () => {
     
 )
 const inputHandler=(event)=>{
-    changedata({...data,[event.target.name]:event.target.value},[])
+    changedata({...data,[event.target.name]:event.target.value})
 }
 const readvalue=()=>{
     if (data.password==data.confirmpassword) {
